@@ -20,7 +20,7 @@ extension Sound {
   public final class SoundOutputManager {
     /// All the possible errors that could occur while interacting
     /// with the default output device.
-    enum Errors: Error {
+    public enum Errors: Error {
             /// The system couldn't complete the requested operation and
             /// returned the given status.
       case  operationFailed(OSStatus)
